@@ -1,0 +1,22 @@
+.App-intro {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.loginFooter {
+  font-size: 13px;
+  padding: 8px;
+  text-align: left;
+}
+
+.App-footer {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
