@@ -1,0 +1,14 @@
+@media (prefers-color-scheme:dark) {
+    body, div {
+        background-color: #222;
+        color: #fff;
+    }
+    .weui-panel__hd {
+        background-color: #222;
+        color: #fff;
+    }
+    .weui-grid__label {
+        background-color: #222;
+        color: #fff;
+    }
+}

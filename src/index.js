@@ -5,7 +5,8 @@ import { HashRouter as Router, Route, hashHistory, Switch } from 'react-router-d
 import HomePage from './Components/Home/Dashboard';
 import GPACalculator from './Components/Utils/GPACalculator';
 import LoginPage  from './Components/User/Login';
-import UndefinedPage from './Components/Exception/UndefinedPage'
+import UndefinedPage from './Components/Exception/UndefinedPage';
+import './Components/darkSupport.css';
 
 
 ReactDOM.render(
