@@ -11,6 +11,9 @@ export default class Tabbar extends Component {
             case 0:
                 window.location.hash = '/';
                 break;
+            case 1:
+                window.location.hash = '/utilsBox';
+                break;
             case 2:
                 window.location.hash = '/Login';
                 break;

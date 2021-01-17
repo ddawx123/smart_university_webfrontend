@@ -1,5 +1,5 @@
 .tab_wrapper {
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }

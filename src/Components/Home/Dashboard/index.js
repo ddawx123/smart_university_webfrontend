@@ -15,6 +15,7 @@ import milkTeaIcon from '../../../Images/milkTeaIcon.svg';
 import carPartnerIcon from '../../../Images/carPartnerIcon.svg';
 import anonymousTalkingIcon from '../../../Images/anonymousTalkingIcon.svg';
 import surveyCenterIcon from '../../../Images/surveyCenterIcon.svg';
+import healthCodeIcon from '../../../Images/healthCodeIcon.svg';
 import weatherIcon from '../../../Images/weather_sunIcon.svg';
 
 class Dashboard extends Component {
@@ -80,6 +81,10 @@ class Dashboard extends Component {
                 icon: <img src={surveyCenterIcon} alt="icon" />,
                 label: '问卷调查',
                 href: '#/surveyCenter'
+            }, {
+                icon: <img src={healthCodeIcon} alt="icon" />,
+                label: '全国互认健康码',
+                href: '#/utilsBox/healthCodeCenter'
             }],
             headerTip: tipText
         });
